@@ -52,7 +52,7 @@ export default function App() {
               <div className="flex gap-2 text-pink-soft/60">
                 <span>[system]</span>
                 <Typewriter 
-                  text="Inicializando Amor.PROTOCOLO_v2.0..." 
+                  text="hoje já são 365 dias ao seu lado e isso é um pouco do que sinto!" 
                   delay={30} 
                   onComplete={() => setConsoleFinished(true)}
                 />
@@ -78,7 +78,7 @@ export default function App() {
                   className="pt-8 flex flex-col items-start gap-6"
                 >
                   <p className="text-white/40 italic">
-                    {">"} tem uma mensagem encrypted para você.
+                    {">"} e essa é mais uma forma de dizer o que você já sabe!
                   </p>
                   
                   <button
@@ -90,7 +90,7 @@ export default function App() {
                     className="group flex items-center gap-3 px-6 py-3 border border-pink-deep/30 bg-pink-deep/5 hover:bg-pink-deep/10 text-pink-soft transition-all duration-300 pointer-events-auto"
                   >
                     <Lock size={16} className="group-hover:rotate-12 transition-transform" />
-                    <span className="font-mono tracking-widest uppercase text-xs">Decrypt Mensagem</span>
+                    <span className="font-mono tracking-widest uppercase text-xs">vem ser feliz!</span>
                     <span className="terminal-cursor" />
                   </button>
                   
@@ -117,7 +117,7 @@ export default function App() {
               className="z-20 text-center"
             >
               <h2 className="text-pink-deep font-mono text-xl tracking-[0.3em] uppercase glow-text mb-2">
-                Descriptografado
+                Myrelle
               </h2>
               <div className="w-12 h-px bg-pink-deep/30 mx-auto mb-8" />
               
